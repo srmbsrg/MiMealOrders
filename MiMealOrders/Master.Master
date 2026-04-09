@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="MiMealOrders.Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>MiMeal Orders</title>
+    <link href="Style/Main.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="MainData">
+        <div id="Header">
+            <asp:Image ID="Image1" runat="server" Height="97px" ImageUrl="~/header_h1.png" Width="999px" />
+        </div>
+        <div id="Menu">
+            <asp:Panel ID="pnMenu" runat="server">
+               
+            </asp:Panel>
+        </div>
+        <div id="Content">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+        <div id="Footer">MiMeal Orders : Copyright 2013 Shamrock Software</div>
+    </div>
+    </form>
+</body>
+</html>
