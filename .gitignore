@@ -1,0 +1,14 @@
+# Build artifacts
+bin/
+obj/
+*.bak
+*.suo
+*.user
+.vs/
+Deploy/
+packages/
+*.dll
+*.pdb
+*.cache
+Thumbs.db
+*.zip
